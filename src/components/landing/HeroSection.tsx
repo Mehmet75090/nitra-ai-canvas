@@ -30,6 +30,9 @@ export const HeroSection = () => {
             <Button 
               size="lg" 
               className="bg-accent hover:bg-accent/90 text-white shadow-lg hover:shadow-xl transition-all group text-lg px-8 py-6"
+              onClick={() => {
+                document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+              }}
             >
               Demander une démo
               <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
@@ -38,6 +41,9 @@ export const HeroSection = () => {
               size="lg" 
               variant="outline" 
               className="bg-white/10 hover:bg-white/20 text-white border-white/30 backdrop-blur-sm text-lg px-8 py-6"
+              onClick={() => {
+                document.getElementById('cas-usage')?.scrollIntoView({ behavior: 'smooth' });
+              }}
             >
               <Play className="mr-2 h-5 w-5" />
               Explorer les cas d'usage
