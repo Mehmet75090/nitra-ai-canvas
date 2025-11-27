@@ -1,4 +1,5 @@
 import { Linkedin } from "lucide-react";
+import logo from "@/assets/logo.svg";
 
 export const Footer = () => {
   return (
@@ -7,7 +8,11 @@ export const Footer = () => {
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
-              <h3 className="font-heading text-2xl font-bold mb-4">Nitra³AI</h3>
+              <img 
+                src={logo} 
+                alt="Nitra³AI Logo" 
+                className="h-8 w-auto mb-4 brightness-0 invert"
+              />
               <p className="text-white/80">
                 Le copilote IA pour ateliers textile
               </p>

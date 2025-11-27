@@ -29,7 +29,7 @@ const problems = [
 
 export const ProblemSection = () => {
   return (
-    <section className="py-24 bg-muted">
+    <section id="problemes" className="py-24 bg-muted">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16 animate-fade-in">
