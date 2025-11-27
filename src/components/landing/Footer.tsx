@@ -22,7 +22,6 @@ export const Footer = () => {
               <h4 className="font-semibold mb-4">Contact</h4>
               <ul className="space-y-2 text-white/80">
                 <li>contact@nitra3ai.com</li>
-                <li>+33 (0)1 XX XX XX XX</li>
               </ul>
             </div>
             

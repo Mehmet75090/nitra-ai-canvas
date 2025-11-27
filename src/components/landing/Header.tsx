@@ -43,12 +43,11 @@ export const Header = () => {
           
           <div className="flex items-center gap-4">
             <Button 
-              variant="outline" 
-              className="hidden sm:inline-flex"
+              className="bg-accent hover:bg-accent/90"
+              onClick={() => {
+                document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+              }}
             >
-              Connexion
-            </Button>
-            <Button className="bg-accent hover:bg-accent/90">
               Démo gratuite
             </Button>
           </div>
