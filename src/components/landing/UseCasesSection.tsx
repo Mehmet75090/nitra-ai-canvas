@@ -20,7 +20,7 @@ const useCases = [
     title: "Amélioration du TRS",
     before: "Pertes cachées, TRS sous-estimé",
     after: "Révélation des micro-arrêts et optimisation",
-    impact: "+15-20% de rendement"
+    impact: "6 points de TRS gagné en plus"
   },
   {
     icon: Heart,
