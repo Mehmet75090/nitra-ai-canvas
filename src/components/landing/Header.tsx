@@ -1,6 +1,25 @@
 import { Button } from "@/components/ui/button";
 import logo from "@/assets/logo.svg";
 
+  const [hidden, setHidden] = useState(false);
+
+  useEffect(() => {
+    let last = 0;
+    const handler = () => {
+      const current = window.scrollY;
+      setHidden(current > last);
+      last = current;
+    };
+    window.addEventListener("scroll", handler);
+    return () => window.removeEventListener("scroll", handler);
+  }, []);
+
+  return (
+    <header style={{ display: hidden ? "none" : "block" }}>
+      {/* contenu */}
+    </header>
+  );
+
 export const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
