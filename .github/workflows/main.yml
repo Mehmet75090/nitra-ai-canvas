@@ -24,3 +24,5 @@ jobs:
           server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./dist     # Dossier à déployer (adapter si différent)
+          server-dir: /www      # 📌 Dossier OVH où envoyer les fichiers
