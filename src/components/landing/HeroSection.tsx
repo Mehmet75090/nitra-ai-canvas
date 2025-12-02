@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import heroDashboard from "@/assets/hero-dashboard.jpg";
+import textileProductionLine from "@/assets/textile-production-line.jpg";
 import logoNitra from "@/assets/logo_nitra.png";
 
 export const HeroSection = () => {
@@ -49,8 +49,8 @@ export const HeroSection = () => {
           <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-white/20 backdrop-blur-sm animate-slide-up">
             <div className="absolute inset-0 bg-gradient-to-t from-primary/50 to-transparent z-10" />
             <img 
-              src={heroDashboard} 
-              alt="Nitra³AI Dashboard - Interface de pilotage en temps réel"
+              src={textileProductionLine} 
+              alt="Ligne de production textile avec caméras de surveillance et contrôle qualité"
               className="w-full h-auto"
             />
           </div>
