@@ -20,13 +20,13 @@ All colors MUST be HSL.
     --primary: 220 90% 15%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 180 60% 45%;
+    --secondary: 68 70% 40%;
     --secondary-foreground: 0 0% 100%;
 
     --muted: 220 20% 95%;
     --muted-foreground: 220 15% 45%;
 
-    --accent: 180 70% 50%;
+    --accent: 68 70% 40%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
@@ -42,9 +42,9 @@ All colors MUST be HSL.
     --hero-gradient-end: 220 80% 25%;
     
     --data-blue: 220 90% 55%;
-    --data-teal: 180 70% 50%;
-    --data-cyan: 190 80% 55%;
-    --data-green: 150 60% 50%;
+    --data-teal: 68 70% 40%;
+    --data-cyan: 68 70% 40%;
+    --data-green: 68 70% 40%;
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -66,7 +66,7 @@ All colors MUST be HSL.
     --popover: 220 35% 12%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 180 70% 50%;
+    --primary: 68 70% 40%;
     --primary-foreground: 220 40% 8%;
 
     --secondary: 220 30% 20%;
@@ -75,15 +75,15 @@ All colors MUST be HSL.
     --muted: 220 30% 18%;
     --muted-foreground: 220 15% 65%;
 
-    --accent: 180 70% 50%;
-    --accent-foreground: 220 40% 8%;
+    --accent: 68 70% 40%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
 
     --border: 220 30% 20%;
     --input: 220 30% 20%;
-    --ring: 180 70% 50%;
+    --ring: 68 70% 40%;
     
     --hero-gradient-start: 220 70% 10%;
     --hero-gradient-end: 220 60% 18%;
