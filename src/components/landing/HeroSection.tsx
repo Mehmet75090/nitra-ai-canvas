@@ -40,7 +40,7 @@ export const HeroSection = () => {
           
           <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-white/20 backdrop-blur-sm animate-slide-up">
             <div className="absolute inset-0 bg-gradient-to-t from-primary/50 to-transparent z-10" />
-            <img alt="Ligne de production textile avec caméras de surveillance et contrôle qualité" src="/lovable-uploads/b2c23c65-faba-4926-9d93-9929e11ed729.png" className="w-full h-auto object-scale-down" />
+            <img alt="Ligne de production textile avec caméras de surveillance et contrôle qualité" src="/lovable-uploads/b2c23c65-faba-4926-9d93-9929e11ed729.png" className="w-full max-h-[300px] object-cover" />
           </div>
         </div>
       </div>
