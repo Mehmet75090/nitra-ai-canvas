@@ -2,10 +2,8 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import textileProductionLine from "@/assets/textile-production-line.jpg";
 import logoNitra from "@/assets/logo_nitra.png";
-
 export const HeroSection = () => {
-  return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-primary via-[hsl(var(--hero-gradient-start))] to-[hsl(var(--hero-gradient-end))]">
+  return <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-primary via-[hsl(var(--hero-gradient-start))] to-[hsl(var(--hero-gradient-end))]">
       <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0zNiAxOGMzLjMxNCAwIDYgMi42ODYgNiA2cy0yLjY4NiA2LTYgNi02LTIuNjg2LTYtNiAyLjY4Ni02IDYtNnoiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLW9wYWNpdHk9Ii4wNSIvPjwvZz48L3N2Zz4=')] opacity-20" />
       
       <div className="container mx-auto px-4 py-20 relative z-10">
@@ -15,11 +13,7 @@ export const HeroSection = () => {
             Copilote IA pour ateliers textile
           </div>
           
-          <img 
-            src={logoNitra} 
-            alt="Nitra³AI Logo" 
-            className="h-16 md:h-20 mx-auto mb-8"
-          />
+          <img src={logoNitra} alt="Nitra³AI Logo" className="h-16 md:h-20 mx-auto mb-8" />
           
           <h1 className="font-heading text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
             Le copilote IA qui révèle la{" "}
@@ -34,13 +28,11 @@ export const HeroSection = () => {
           </p>
           
           <div className="flex justify-center mb-16">
-            <Button 
-              size="lg" 
-              className="bg-accent hover:bg-accent/90 text-white shadow-lg hover:shadow-xl transition-all group text-lg px-8 py-6"
-              onClick={() => {
-                document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
-              }}
-            >
+            <Button size="lg" className="bg-accent hover:bg-accent/90 text-white shadow-lg hover:shadow-xl transition-all group text-lg px-8 py-6" onClick={() => {
+            document.getElementById('contact')?.scrollIntoView({
+              behavior: 'smooth'
+            });
+          }}>
               Demander une démo
               <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
             </Button>
@@ -48,16 +40,11 @@ export const HeroSection = () => {
           
           <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-white/20 backdrop-blur-sm animate-slide-up">
             <div className="absolute inset-0 bg-gradient-to-t from-primary/50 to-transparent z-10" />
-            <img 
-              src={textileProductionLine} 
-              alt="Ligne de production textile avec caméras de surveillance et contrôle qualité"
-              className="w-full h-auto"
-            />
+            <img alt="Ligne de production textile avec caméras de surveillance et contrôle qualité" src="/lovable-uploads/b2c23c65-faba-4926-9d93-9929e11ed729.png" className="w-full h-auto object-scale-down" />
           </div>
         </div>
       </div>
       
       <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-background to-transparent" />
-    </section>
-  );
+    </section>;
 };
