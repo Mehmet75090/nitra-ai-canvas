@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import heroDashboard from "@/assets/hero-dashboard.jpg";
+import logoNitra from "@/assets/logo_nitra.png";
 
 export const HeroSection = () => {
   return (
@@ -13,6 +14,12 @@ export const HeroSection = () => {
             <span className="w-2 h-2 bg-accent rounded-full animate-pulse" />
             Copilote IA pour ateliers textile
           </div>
+          
+          <img 
+            src={logoNitra} 
+            alt="Nitra³AI Logo" 
+            className="h-16 md:h-20 mx-auto mb-8"
+          />
           
           <h1 className="font-heading text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
             Le copilote IA qui révèle la{" "}
